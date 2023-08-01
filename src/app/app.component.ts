@@ -1,26 +1,41 @@
-import { Component, OnInit } from '@angular/core';
-import { TranslateService } from '@ngx-translate/core';
+import { Component } from '@angular/core';
+import { Router, NavigationEnd } from '@angular/router';
+import { AppSettings } from './app.settings';
+import { Settings } from './app.settings.model';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.scss']
 })
-export class AppComponent implements OnInit {
-  currentYear:number;
-  constructor(private _translateService: TranslateService) {
-    this._translateService.addLangs(['en', 'fr']);
-    this._translateService.setDefaultLang('fr');
-    this.currentYear=new Date().getFullYear();
+export class AppComponent {
+  public settings: Settings;
+  constructor(public appSettings:AppSettings, public router:Router){
+    this.settings = this.appSettings.settings;
+  } 
+
+  ngAfterViewInit(){
+    this.router.events.subscribe(event => {
+      if (event instanceof NavigationEnd) {
+        this.scrollToTop();
+      }                
+    });
   }
 
-  ngOnInit(): void {
-    if (!localStorage.getItem("lang")) {
-      localStorage.setItem("lang", 'en');
+  public scrollToTop(){
+    var scrollDuration = 200;
+    var scrollStep = -window.scrollY / (scrollDuration / 20);
+    var scrollInterval = setInterval(()=>{
+      if(window.scrollY != 0){
+         window.scrollBy(0, scrollStep);
+      }
+      else{
+        clearInterval(scrollInterval); 
+      }
+    },10);
+    if(window.innerWidth <= 960){
+      window.scrollTo(0,0);
     }
-    let lang:any=localStorage.getItem("lang"); 
-    this._translateService.setDefaultLang(lang);
-    this._translateService.use(lang);
-  }
+  } 
 
 }

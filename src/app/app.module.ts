@@ -1,54 +1,43 @@
-import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations'; 
+import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
+import { SharedModule } from './shared/shared.module'; 
+
+import { OverlayContainer } from '@angular/cdk/overlay';
+import { CustomOverlayContainer } from './theme/utils/custom-overlay-container';
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { AboutComponent } from './about/about.component';
-import { CurriculumVitaeComponent } from './curriculum-vitae/curriculum-vitae.component';
-import { ProjectsComponent } from './projects/projects.component';
-import { SkillsComponent } from './skills/skills.component';
-import { ContactComponent } from './contact/contact.component';
-import { HeaderComponent } from './header/header.component';
-import { ReferencesComponent } from './references/references.component';
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { HomeComponent } from './home/home.component';
-import { TranslateModule } from '@ngx-translate/core';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { CommonModule } from '@angular/common';
-import { MatLegacyRadioModule as MatRadioModule } from '@angular/material/legacy-radio';
-import { FormsModule } from '@angular/forms';
-import { MatLegacySelectModule as MatSelectModule } from '@angular/material/legacy-select';
-import { MatLegacyFormFieldModule as MatFormFieldModule } from '@angular/material/legacy-form-field';
-import { MatLegacyInputModule as MatInputModule } from '@angular/material/legacy-input';
+import { AppSettings } from './app.settings'; 
+import { PagesComponent } from './pages/pages.component';
+import { NotFoundComponent } from './pages/not-found/not-found.component';
+import { MenuComponent } from './theme/components/menu/menu.component';
+import { FooterComponent } from './theme/components/footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    AboutComponent,
-    CurriculumVitaeComponent,
-    ProjectsComponent,
-    SkillsComponent,
-    ContactComponent,
-    HeaderComponent,
-    ReferencesComponent,
-    HomeComponent
+    PagesComponent,
+    NotFoundComponent,
+    MenuComponent,
+    FooterComponent
   ],
   imports: [
-    CommonModule,
     BrowserModule,
     AppRoutingModule,
-    FontAwesomeModule,
-    TranslateModule, 
-    BrowserAnimationsModule,
-    MatRadioModule,
+    BrowserAnimationsModule, 
+    HttpClientModule,
     FormsModule,
-    MatSelectModule,
-    MatFormFieldModule,
-    MatInputModule,
-    TranslateModule.forRoot(),
+    SharedModule
   ],
   providers: [
-   
+    AppSettings,
+    { provide: OverlayContainer, useClass: CustomOverlayContainer }
   ],
-  bootstrap: [AppComponent]
+  bootstrap: [
+    AppComponent
+  ]
 })
 export class AppModule { }
