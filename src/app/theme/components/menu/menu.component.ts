@@ -11,8 +11,9 @@ import { Settings } from '../../../app.settings.model';
 export class MenuComponent implements OnInit {
   public isSmallDevice:boolean = false;
   public menuItems = [
-    { title: 'home', routerLink: '/home', icon: 'home' },
-    { title: 'about', routerLink: '/about', icon: 'person' },
+    //{ title: 'home', routerLink: '/home', icon: 'home' },
+    //{ title: 'about', routerLink: '/about', icon: 'person' },
+    { title: 'home', routerLink: '/about', icon: 'home' },
     { title: 'experience', routerLink: '/experience', icon: 'touch_app' },
     { title: 'skills', routerLink: '/skills', icon: 'build' },
     { title: 'education', routerLink: '/education', icon: 'school' },    

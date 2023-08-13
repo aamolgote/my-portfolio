@@ -7,8 +7,7 @@ const routes: Routes = [
   { 
       path: '', 
       component: PagesComponent, children: [            
-           { path: '', redirectTo: '/home', pathMatch: 'full' },
-           //{ path: '', loadChildren: () => import('./pages/home/home.module').then(m => m.HomeModule) },
+           { path: '', redirectTo: '/about', pathMatch: 'full' },
            { path: 'about', loadChildren: () => import('./pages/about/about.module').then(m => m.AboutModule) }, 
            { path: 'experience', loadChildren: () => import('./pages/experience/experience.module').then(m => m.ExperienceModule) },
            { path: 'education', loadChildren: () => import('./pages/education/education.module').then(m => m.EducationModule) }, 

@@ -1,5 +1,23 @@
-<app-content-header [image]="person" headerTitle="Emilio Verdines" desc="I'm a passionate UI/UX Designer and Front-End Developer creating modern and responsive design for Web and Mobile."></app-content-header>
-
+<app-content-header [image]="person" headerTitle="Amol Gote" 
+desc="Unleashing the power of microservices in the cloud, delivering agility, scalability, and innovation for modern applications for both enterprises and startups.">
+</app-content-header>
+<div class="container p-3">
+    <div fxLayout="row wrap" fxLayoutAlign="center center">        
+        <div fxFlex="100" fxFlex.gt-md="85" fxFlex.md="90">
+            <div fxLayout="row wrap" fxLayoutAlign="center center">
+                <div *ngFor="let service of services" fxFlex="100" fxFlex.gt-sm="33.3" fxFlex.sm="50" class="p-3">
+                    <mat-card  fxLayout="column" fxLayoutAlign="center center" class="w-100 service-item">            
+                        <mat-icon class="mat-icon-xlg accent-color transition">{{service.icon}}</mat-icon>
+                        <h3 class="service-title my-3">{{service.title}}</h3>
+                        <p class="text-center secondary-text-color">
+                            {{service.desc}}
+                        </p>           
+                    </mat-card>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <div class="container p-3">
     <div fxLayout="row wrap" fxLayoutAlign="center center">        
         <div fxFlex="100" fxFlex.gt-md="85" fxFlex.md="90" class="p-3"> 
@@ -43,30 +61,11 @@
                         </button>
                     </div>
                     <div fxFlex="100" fxFlex.gt-sm="50" class=""> 
-                        
                         <mat-list class="about-list">
                             <mat-list-item>
                                 <div mat-line>
                                     <span class="list-title">full name:</span>
-                                    <span class="secondary-text-color">Emilio Verdines</span>
-                                </div>
-                            </mat-list-item>
-                            <mat-list-item>
-                                <div mat-line>
-                                    <span class="list-title">birthday:</span>
-                                    <span class="secondary-text-color">March 29, 1981</span>
-                                </div>
-                            </mat-list-item>
-                            <mat-list-item>
-                                <div mat-line>
-                                    <span class="list-title">nationality:</span>
-                                    <span class="secondary-text-color">USA</span>
-                                </div>
-                            </mat-list-item>
-                            <mat-list-item>
-                                <div mat-line>
-                                    <span class="list-title">born:</span>
-                                    <span class="secondary-text-color">Brooklyn, NY</span>
+                                    <span class="secondary-text-color">Amol Gote</span>
                                 </div>
                             </mat-list-item>
                             <mat-list-item>
@@ -97,22 +96,9 @@
                                     <span class="secondary-text-color">www.yourwebsite.loc</span>
                                 </div>
                             </mat-list-item>
-                            <mat-list-item>
-                                <div mat-line>
-                                    <span class="list-title">freelance:</span>
-                                    <span class="secondary-text-color">Available</span>
-                                </div>
-                            </mat-list-item>
-                            <mat-list-item>
-                                <div mat-line>
-                                    <span class="list-title">vacation:</span>
-                                    <span class="secondary-text-color">till September 15, 2018</span>
-                                </div>
-                            </mat-list-item>
                         </mat-list>
                     </div>
                     <div fxFlex="100" class="text-center mt-2">
-                        <button mat-raised-button color="accent" class="m-2">Download CV</button>
                         <a routerLink="/contact" mat-raised-button color="accent" class="m-2">Contact Me</a>
                     </div>
                 </div>

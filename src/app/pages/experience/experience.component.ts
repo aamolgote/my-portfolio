@@ -8,32 +8,32 @@ import { Component, OnInit } from '@angular/core';
 export class ExperienceComponent implements OnInit {
   public expiriences = [
     { 
-      position: 'full stack developer', 
-      dateRange: '2018 - Present',
-      company: 'Google Inc',
-      fullDateRange: 'Jan 2018 - Present day',
-      desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque sunt, id quibusdam suscipit rerum, deserunt consequatur blanditiis minima nesciunt odit est quidem qui.'
+      position: 'Solution Architect', 
+      dateRange: '2019 - Present',
+      company: 'Innova Solutions - Client - iCreditWorks',
+      fullDateRange: 'May 2019 - Present day',
+      desc: 'Responsible for architecting, building all the back-end infrastructure, horizontal and veritcal microservices, integrating with different AWS cloud services, code reviews, tests, automation'
     },
     { 
-      position: 'web master / web developer', 
-      dateRange: '2016 - 2018',
-      company: 'Apple Inc',
-      fullDateRange: 'Sep 2016 - Jan 2018',
-      desc: 'Pellentesque porttitor vulputate eros, a vestibulum justo. Nunc molestie, velit vel pellentesque iaculis, eros urna mattis ante, vitae tincidunt erat lectus quis elit. Interdum et malesuada fames ac ante ipsum primis in faucibus.'
+      position: 'Senior Full Stack Engineer/Architect', 
+      dateRange: '2017 - 2019',
+      company: 'Innova Solutions (Data Inc) - Client - Morgan Stanley',
+      fullDateRange: 'April 2017 - May 2019',
+      desc: 'Consultation, full stack design and development, building microservices. Collaborating on project to migrate multiple IT service management applications to Service Now portal'
     },
     { 
-      position: 'frontend developer', 
-      dateRange: '2013 - 2016',
-      company: 'Web Agency',
-      fullDateRange: 'May 2013 - Sep 2016',
-      desc: 'Maecenas nec neque fringilla nisi hendrerit rhoncus et vitae sapien. Vestibulum tincidunt est sed enim laoreet tincidunt. In vel porta ligula, at eleifend mauris. Ut lectus diam, auctor eget pharetra et, posuere ullamcorper urna.'
+      position: 'Senior Software Engineer', 
+      dateRange: '2016 - 2017',
+      company: 'Innova Solutions (Data Inc) - Client - Microsoft',
+      fullDateRange: 'Nov 2016 - April 2017',
+      desc: 'Worked as member of System Reliability and Engineering (SRE) team as Senior Software Engineer, helped in enhanching APIs. Designed and developed Dev ops tool which provides ability to run checklist scripts to perform system health checks'
     },
     { 
-      position: 'graphic designer', 
-      dateRange: '2010 - 2013',
-      company: 'Web Agency',
+      position: 'Senior Software Engineer', 
+      dateRange: '2015 - 2016',
+      company: 'Innova Solutions (Data Inc) - Client - Associated Press',
       fullDateRange: 'Sep 2010 - May 2013',
-      desc: 'Sed mattis urna sem, non tempor felis blandit non. In hac habitasse platea dictumst. Praesent in quam in tortor vulputate blandit et non augue.'
+      desc: 'Implemented end-to-end Web Sockets using Signal R, and built microservices using ASP.NET Web API. Created and developed Angular JS reusable UI widgets and assisted team members with development and best practices.'
     }
   ]
   constructor() { }
