@@ -16,7 +16,7 @@ export class MenuComponent implements OnInit {
     { title: 'home', routerLink: '/about', icon: 'home' },
     { title: 'experience', routerLink: '/experience', icon: 'touch_app' },
     { title: 'clients', routerLink: '/clients', icon: 'thumbs_up_down' },   
-    { title: 'Publications', routerLink: '/services', icon: 'perm_data_setting' },
+    { title: 'Publications', routerLink: '/services', icon: 'menu_book' },
     { title: 'Speaking', routerLink: '/speaking', icon: 'speaker' },
     { title: 'skills', routerLink: '/skills', icon: 'build' },
     { title: 'education', routerLink: '/education', icon: 'school' },    
