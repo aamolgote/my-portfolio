@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-services',
-  templateUrl: './services.component.html',
-  styleUrls: ['./services.component.scss']
+  selector: 'app-publications',
+  templateUrl: './publications.component.html',
+  styleUrls: ['./publications.component.scss']
 })
-export class ServicesComponent implements OnInit {
+export class PublicationsComponent implements OnInit {
   public services = [
     { 
       imageUrl: '/assets/img/publications/dzone.png',
