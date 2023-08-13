@@ -17,12 +17,12 @@ export class MenuComponent implements OnInit {
     { title: 'experience', routerLink: '/experience', icon: 'touch_app' },
     { title: 'clients', routerLink: '/clients', icon: 'thumbs_up_down' },   
     { title: 'Publications', routerLink: '/services', icon: 'perm_data_setting' },
-    { title: 'Speaking', routerLink: '/team', icon: 'group' },
+    { title: 'Speaking', routerLink: '/speaking', icon: 'speaker' },
     { title: 'skills', routerLink: '/skills', icon: 'build' },
     { title: 'education', routerLink: '/education', icon: 'school' },    
     { title: 'portfolio', routerLink: '/portfolio', icon: 'work' },
-    //{ title: 'pricing', routerLink: '/pricing', icon: 'attach_money' },    
-    //{ title: 'team', routerLink: '/team', icon: 'group' },
+    { title: 'pricing', routerLink: '/pricing', icon: 'attach_money' },    
+    { title: 'team', routerLink: '/team', icon: 'group' },
     { title: 'contact', routerLink: '/contact', icon: 'mail' }
   ]
   public settings: Settings;

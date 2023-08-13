@@ -7,40 +7,68 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SkillsComponent implements OnInit {
   public skills = [
-    { 
-      name: 'Design',
-      items:[ 
-        { name: 'Photoshop', value: 90 },
-        { name: 'Illustrator', value: 70 },
-        { name: 'Indesign', value: 50 },
-        { name: 'Flash', value: 50 }
+    {
+      name: 'Microservices - APIs',
+      items: [
+        { name: 'Spring Java', value: 90 },
+        { name: '.NET Web API', value: 90 },
+        { name: 'WCF', value: 80 },
+        { name: 'ASP.NET MVC / WebServices (ASMX)', value: 70 }
       ]
     },
-    { 
-      name: 'Coding',
-      items:[ 
-        { name: 'WordPress', value: 90 },
-        { name: 'HTML / CSS', value: 70 },
-        { name: 'PHP / MySQL', value: 80 },
-        { name: 'Angular / JavaScript', value: 50 }
+    {
+      name: 'Languages',
+      items: [
+        { name: 'C#', value: 90 },
+        { name: 'Java', value: 90 },
+        { name: 'Angular / JavaScript', value: 80 },
+        { name: 'Javascript / Typescript', value: 80 },
+
       ]
     },
-    { 
-      name:'Office',
-      items:[ 
-        { name: 'MS Excel', value: 90 },
-        { name: 'MS Word', value: 70 },
-        { name: 'PowerPoint', value: 40 },
-        { name: 'Outlook', value: 60 }
+    {
+      name: 'Microservices - APIs Tools',
+      items: [
+        { name: 'Postman', value: 90 },
+        { name: 'Swagger UI', value: 70 },
+        { name: 'JMeter', value: 40 },
+        { name: 'cURL', value: 30 }
       ]
     },
-    { 
-      name:'Language',
-      items:[ 
-        { name: 'English', value: 95 },
-        { name: 'French', value: 60 },
-        { name: 'German', value: 50 },
-        { name: 'Spanish', value: 30 }
+    {
+      name: 'Messaging',
+      items: [
+        { name: 'Kafka', value: 80 },
+        { name: 'AWS SQS', value: 80 },
+        { name: 'AWS SNS/SES', value: 70 },
+        { name: 'Azure Service Bus', value: 70 }
+      ]
+    },
+    {
+      name: 'Databases (SQL/NoSQL)',
+      items: [
+        { name: 'MYSQL', value: 80 },
+        { name: 'Microsoft SQL SERVER', value: 90 },
+        { name: 'MongoDB', value: 60 },
+        { name: 'Oracle', value: 10 }
+      ]
+    },
+    {
+      name: 'Testing',
+      items: [
+        { name: 'MockITo-Java', value: 90 },
+        { name: 'Moq-.NET', value: 70 },
+        { name: 'Perfomance Testing', value: 70 },
+        { name: 'Unit and Integrations testing', value: 70 }
+      ]
+    },
+    {
+      name: 'Cloud Services',
+      items: [
+        { name: 'AWS S3', value: 80 },
+        { name: 'AWS RDS Aurora', value: 70 },
+        { name: 'AWS Lambda', value: 70 },
+        { name: 'AWS SNS', value: 70 }
       ]
     }
   ]

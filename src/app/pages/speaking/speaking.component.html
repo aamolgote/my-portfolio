@@ -1,0 +1,30 @@
+<app-content-header icon="speaker" headerTitle="Guest Speaker"
+    desc="Speaker at technology events. Where Tech Talks and Sound Walks."></app-content-header>
+
+<div class="container p-3">
+    <div fxLayout="row wrap" fxLayoutAlign="center center">
+        <div fxFlex="100" fxFlex.gt-md="85" fxFlex.md="90">
+            <div fxLayout="row wrap" fxLayoutAlign="center center">
+                <div *ngFor="let speakingEngagement of speakingEngagements" fxFlex="100" fxFlex.gt-sm="100"
+                    fxFlex.sm="100" class="p-3">
+                    <mat-card fxLayout="row" fxLayoutAlign="center center" class="w-100 speaking-card">
+                        <app-image-loader [src]="speakingEngagement.photo" [class]="'mat-card-image w-100'"
+                            fxFlex.gt-sm="40" fxFlex.sm="40"></app-image-loader>
+                        <div>
+                            <h4 class="title">{{speakingEngagement.name}}</h4>
+                            <p class="secondary-text-color">{{speakingEngagement.title}}</p>
+                            <a [href]="speakingEngagement.presentationLink" target="_blank" class="mx-2"
+                                alt="Presentation Powerpoint">
+                                <mat-icon class="mat-icon-lg">link</mat-icon>
+                            </a>
+                            <a [href]="speakingEngagement.sourceCodeLink" target="_blank" class="mx-2"
+                                alt="Demo Source Code">
+                                <mat-icon class="mat-icon-lg">code</mat-icon>
+                            </a>
+                        </div>
+                    </mat-card>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
