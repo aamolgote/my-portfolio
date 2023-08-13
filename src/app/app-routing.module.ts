@@ -19,6 +19,7 @@ const routes: Routes = [
            { path: 'team', loadChildren: () => import('./pages/team/team.module').then(m => m.TeamModule) }, 
            { path: 'contact', loadChildren: () => import('./pages/contact/contact.module').then(m => m.ContactModule) },
            { path: 'speaking', loadChildren: () => import('./pages/speaking/speaking.module').then(m => m.SpeakingModule) }, 
+           { path: 'certifications', loadChildren: () => import('./pages/certifications/certifications.module').then(m => m.CertificationsModule) }
       ]
   },
   { path: 'home', loadChildren: () => import('./pages/home/home.module').then(m => m.HomeModule) },

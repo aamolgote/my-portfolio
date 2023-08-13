@@ -34,7 +34,50 @@ export class ExperienceComponent implements OnInit {
       company: 'Innova Solutions (Data Inc) - Client - Associated Press',
       fullDateRange: 'Sep 2010 - May 2013',
       desc: 'Implemented end-to-end Web Sockets using Signal R, and built microservices using ASP.NET Web API. Created and developed Angular JS reusable UI widgets and assisted team members with development and best practices.'
+    },
+    { 
+      position: 'Consultant', 
+      dateRange: '2014 - 2015',
+      company: 'Innova Solutions (Data Inc) - Client - Bank Of America (Merrill Lynch)',
+      fullDateRange: 'Feb 2014 - Sept 2015',
+      desc: 'Served as Lead for UF (Unified Framework) and Dev Contributor to client-side framework using Angular JS, Designed and developed Aggregator framework for API driven user interface'
+    },
+    { 
+      position: 'Consultant', 
+      dateRange: '2014 - 2015',
+      company: 'Microsoft - Client - Public Sector',
+      fullDateRange: 'Jan 2013 - Jan 2014',
+      desc: 'Developed Connect360 solution, using Azure Service Bus, Azure Workflow Manager. Provided end-to-end delivery to one of the counties in US'
+    },
+    { 
+      position: 'Consultant', 
+      dateRange: '2011 - 2012',
+      company: 'Microsoft - Client - Lexis Nexis',
+      fullDateRange: 'June 2011 - Dec 2012',
+      desc: 'Served as Dev Lead in a refactoring and performance enhancement for LexisNexis Advance platform.'
+    },
+    { 
+      position: 'Associate Consultant', 
+      dateRange: '2009 - 2011',
+      company: 'Microsoft - Client - Bank Of America (Merrill Lynch)',
+      fullDateRange: 'Sept 2009 - June 2011',
+      desc: 'Multiple projects, including FAST Structured data search, Market Data Framework POC, Next Generation Statements, Ajax Instrumentation and Sym Instrumentation framework'
+    },
+    { 
+      position: 'Associate Consultant', 
+      dateRange: '2009 - 2009',
+      company: 'Microsoft - Client - Punjab State Goverment',
+      fullDateRange: 'Jan 2009 - Sept 2009',
+      desc: ''
+    },
+    { 
+      position: 'Associate Consultant', 
+      dateRange: '2007 - 2008',
+      company: 'Microsoft - Client - BestBuy Canada',
+      fullDateRange: 'Feb 2007 - Dec 2008',
+      desc: 'Module lead for building Web Services based new e-Commerce platform for BestBuy Canada.'
     }
+
   ]
   constructor() { }
 

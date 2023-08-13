@@ -19,9 +19,10 @@ export class MenuComponent implements OnInit {
     { title: 'Publications', routerLink: '/services', icon: 'menu_book' },
     { title: 'Speaking', routerLink: '/speaking', icon: 'speaker' },
     { title: 'skills', routerLink: '/skills', icon: 'build' },
-    { title: 'education', routerLink: '/education', icon: 'school' },    
+    //{ title: 'education', routerLink: '/education', icon: 'school' },    
+    { title: 'Certifications', routerLink: '/certifications', icon: 'badge' },    
     { title: 'portfolio', routerLink: '/portfolio', icon: 'work' },
-    { title: 'pricing', routerLink: '/pricing', icon: 'attach_money' },    
+    //{ title: 'pricing', routerLink: '/pricing', icon: 'attach_money' },    
     { title: 'team', routerLink: '/team', icon: 'group' },
     { title: 'contact', routerLink: '/contact', icon: 'mail' }
   ]
