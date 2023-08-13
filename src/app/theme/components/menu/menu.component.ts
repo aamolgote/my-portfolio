@@ -16,11 +16,11 @@ export class MenuComponent implements OnInit {
     { title: 'home', routerLink: '/about', icon: 'home' },
     { title: 'experience', routerLink: '/experience', icon: 'touch_app' },
     { title: 'clients', routerLink: '/clients', icon: 'thumbs_up_down' },   
+    { title: 'Publications', routerLink: '/services', icon: 'perm_data_setting' },
+    { title: 'Speaking', routerLink: '/team', icon: 'group' },
     { title: 'skills', routerLink: '/skills', icon: 'build' },
     { title: 'education', routerLink: '/education', icon: 'school' },    
-    //{ title: 'services', routerLink: '/services', icon: 'perm_data_setting' },
     { title: 'portfolio', routerLink: '/portfolio', icon: 'work' },
-    
     //{ title: 'pricing', routerLink: '/pricing', icon: 'attach_money' },    
     //{ title: 'team', routerLink: '/team', icon: 'group' },
     { title: 'contact', routerLink: '/contact', icon: 'mail' }
