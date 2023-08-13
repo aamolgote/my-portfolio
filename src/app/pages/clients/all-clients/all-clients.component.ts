@@ -13,17 +13,15 @@ export class AllClientsComponent implements OnInit {
     clickable: true
   };
   public clients = [
-    'assets/img/clients/dream.png',  
-    'assets/img/clients/congrats.png',
-    'assets/img/clients/best.png',
-    'assets/img/clients/original.png',
-    'assets/img/clients/king.png',
-    'assets/img/clients/love.png',
-    'assets/img/clients/the.png',
-    'assets/img/clients/easter.png',
-    'assets/img/clients/with.png',
-    'assets/img/clients/special.png',
-    'assets/img/clients/bravo.png'
+    'assets/img/clients/icreditworks.jpg',
+    'assets/img/clients/morganstanley.jpg',
+    'assets/img/clients/microsoft.jpg',
+    'assets/img/clients/ap.png',
+    'assets/img/clients/boa.jpg',  
+    'assets/img/clients/lexisnexis.png',
+    'assets/img/clients/punjabgov.png',
+    'assets/img/clients/BestBuyCanada.webp',
+    'assets/img/clients/washingtonmutual.webp',
   ];
   constructor() { }
 

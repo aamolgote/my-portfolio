@@ -15,13 +15,14 @@ export class MenuComponent implements OnInit {
     //{ title: 'about', routerLink: '/about', icon: 'person' },
     { title: 'home', routerLink: '/about', icon: 'home' },
     { title: 'experience', routerLink: '/experience', icon: 'touch_app' },
+    { title: 'clients', routerLink: '/clients', icon: 'thumbs_up_down' },   
     { title: 'skills', routerLink: '/skills', icon: 'build' },
     { title: 'education', routerLink: '/education', icon: 'school' },    
-    { title: 'services', routerLink: '/services', icon: 'perm_data_setting' },
+    //{ title: 'services', routerLink: '/services', icon: 'perm_data_setting' },
     { title: 'portfolio', routerLink: '/portfolio', icon: 'work' },
-    { title: 'clients', routerLink: '/clients', icon: 'thumbs_up_down' },   
-    { title: 'pricing', routerLink: '/pricing', icon: 'attach_money' },    
-    { title: 'team', routerLink: '/team', icon: 'group' },
+    
+    //{ title: 'pricing', routerLink: '/pricing', icon: 'attach_money' },    
+    //{ title: 'team', routerLink: '/team', icon: 'group' },
     { title: 'contact', routerLink: '/contact', icon: 'mail' }
   ]
   public settings: Settings;
