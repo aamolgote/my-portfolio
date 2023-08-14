@@ -1,0 +1,19 @@
+<app-content-header icon="emoji_events" headerTitle="Awards" desc="Multiple Awards."></app-content-header>
+<div class="container p-3">
+    <div fxLayout="row wrap" fxLayoutAlign="center center">        
+        <div fxFlex="100" fxFlex.gt-md="85" fxFlex.md="90">
+            <div fxLayout="row wrap" fxLayoutAlign="center center">
+                <div *ngFor="let award of awards" fxFlex="100" fxFlex.gt-sm="33.3" fxFlex.sm="50" class="p-3">
+                    <mat-card  fxLayout="column" fxLayoutAlign="center center" class="w-100 service-item">            
+                        <mat-icon class="mat-icon-xlg accent-color transition">{{award.icon}}</mat-icon>
+                        <h3 class="service-title my-3">{{award.title}}</h3>
+                        <p class="text-center secondary-text-color">
+                            {{award.desc}}
+                        </p>           
+                    </mat-card>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

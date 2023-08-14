@@ -11,19 +11,16 @@ import { Settings } from '../../../app.settings.model';
 export class MenuComponent implements OnInit {
   public isSmallDevice:boolean = false;
   public menuItems = [
-    //{ title: 'home', routerLink: '/home', icon: 'home' },
-    //{ title: 'about', routerLink: '/about', icon: 'person' },
     { title: 'home', routerLink: '/about', icon: 'home' },
     { title: 'experience', routerLink: '/experience', icon: 'touch_app' },
     { title: 'clients', routerLink: '/clients', icon: 'thumbs_up_down' },   
     { title: 'Publications', routerLink: '/services', icon: 'menu_book' },
     { title: 'Speaking', routerLink: '/speaking', icon: 'speaker' },
     { title: 'skills', routerLink: '/skills', icon: 'build' },
-    //{ title: 'education', routerLink: '/education', icon: 'school' },    
     { title: 'Certifications', routerLink: '/certifications', icon: 'badge' },    
-    { title: 'portfolio', routerLink: '/portfolio', icon: 'work' },
-    //{ title: 'pricing', routerLink: '/pricing', icon: 'attach_money' },    
-    { title: 'team', routerLink: '/team', icon: 'group' },
+    { title: 'awards', routerLink: '/awards', icon: 'emoji_events' },   
+    //{ title: 'portfolio', routerLink: '/portfolio', icon: 'work' },
+    //{ title: 'team', routerLink: '/team', icon: 'group' },
     { title: 'contact', routerLink: '/contact', icon: 'mail' }
   ]
   public settings: Settings;
