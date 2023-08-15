@@ -1,0 +1,11 @@
+{
+    "responseOverrides": {
+        "404": {
+            "rewrite": "/index.html",
+            "statusCode": 200
+        }
+    },
+    "mimeTypes": {
+        ".xml": "text/xml"
+    }
+}
