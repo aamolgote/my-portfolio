@@ -31,7 +31,8 @@ const routes: Routes = [
   imports: [
     RouterModule.forRoot(routes, {
     preloadingStrategy: PreloadAllModules,
-    initialNavigation: 'enabledBlocking'
+    initialNavigation: 'enabledBlocking',
+    useHash: true
 })
   ],
   exports: [RouterModule]
