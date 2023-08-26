@@ -9,7 +9,8 @@ export class PublicationsComponent implements OnInit {
   public services = [
     { 
       imageUrl: '/assets/img/publications/dzone.png',
-      title: 'Microservices - APIs', 
+      platformDescription: 'DZone is a widely-recognized platform that connects software developers and IT professionals, serving as a hub for expert insights, tutorials, and industry news.', 
+      topics : 'Microservices, Spring, Cloud',
       articles: [
         {
           title : 'Ensuring Reliable Microservice Deployment With Spring Boot Build Info Maven Plugin',
@@ -26,8 +27,28 @@ export class PublicationsComponent implements OnInit {
       ]
     },
     { 
+      imageUrl: '/assets/img/publications/baeldung.png',
+      platformDescription: 'Baeldung is a trusted resource in the Java ecosystem, specializing in in-depth tutorials and articles on Java, Spring technologies, and microservices, serving as a go-to guide for software developers.',
+      topics : 'Microservices, Spring, Cloud', 
+      articles: [
+        {
+          title : 'Update an Existing Amazon S3 Object using Java',
+          link: 'https://www.baeldung.com/java-update-amazon-s3-object'
+        },
+        {
+          title : 'TBD',
+          link: ''
+        },
+        {
+          title : 'TBD',
+          link: ''
+        }
+      ]
+    },
+    { 
       imageUrl: '/assets/img/publications/blog.png',
-      title: 'Microservices - APIs', 
+      platformDescription: 'MyTechNetKnowhows is a personal technical blog offering insights and guides on a range of technology topics, aiming to empower IT professionals and software developers with practical knowledge', 
+      topics : 'Microservices, Spring, Cloud',
       articles: [
         {
           title : 'Twelve factor apps',
