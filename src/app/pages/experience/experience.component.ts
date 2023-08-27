@@ -68,7 +68,7 @@ export class ExperienceComponent implements OnInit {
       dateRange: '2009 - 2009',
       company: 'Microsoft - Client - Punjab State Goverment',
       fullDateRange: 'Jan 2009 - Sept 2009',
-      desc: ''
+      desc: 'This project was for registration of deeds (ROD) for Punjab government, this was getting executed by Microsoft Partner and my role was overseeing the overall project from technology apect and had played advisory role.'
     },
     { 
       position: 'Associate Consultant', 

@@ -10,28 +10,16 @@ export class TestimonialsComponent implements OnInit {
   public config: SwiperConfigInterface = { };
   public testimonials = [
     { 
-      text: 'Phasellus sed metus leo. Donec laoreet, lacus ut suscipit convallis, erat enim eleifend nulla, at sagittis enim urna et lacus. Etiam orci lacus, volutpat at egestas sit amet, vestibulum sit amet eros. Vivamus id odio sit amet leo fringilla.', 
-      author: 'Mr. Adam Sandler', 
-      company: 'General Electric', 
-      image: 'assets/img/profile/adam.jpg' 
+      text: '', 
+      author: '', 
+      company: '', 
+      image: '' 
     },
     { 
-      text: 'Phasellus sed metus leo. Donec laoreet, lacus ut suscipit convallis, erat enim eleifend nulla, at sagittis enim urna et lacus. Etiam orci lacus, volutpat at egestas sit amet, vestibulum sit amet eros. Vivamus id odio sit amet leo fringilla.', 
-      author: 'Mrs. Ashley Ahlberg', 
-      company: 'Dell EMC', 
-      image: 'assets/img/profile/ashley.jpg' 
-    },
-    { 
-      text: 'Phasellus sed metus leo. Donec laoreet, lacus ut suscipit convallis, erat enim eleifend nulla, at sagittis enim urna et lacus. Etiam orci lacus, volutpat at egestas sit amet, vestibulum sit amet eros. Vivamus id odio sit amet leo fringilla.', 
-      author: 'Mr. Bruno Vespa', 
-      company: 'Southwest Airlines', 
-      image: 'assets/img/profile/bruno.jpg' 
-    },
-    { 
-      text: 'Phasellus sed metus leo. Donec laoreet, lacus ut suscipit convallis, erat enim eleifend nulla, at sagittis enim urna et lacus. Etiam orci lacus, volutpat at egestas sit amet, vestibulum sit amet eros. Vivamus id odio sit amet leo fringilla.', 
-      author: 'Mrs. Julia Aniston', 
-      company: 'Apple Co', 
-      image: 'assets/img/profile/julia.jpg' 
+      text: '', 
+      author: '', 
+      company: '', 
+      image: '' 
     }
   ];
   constructor() { }

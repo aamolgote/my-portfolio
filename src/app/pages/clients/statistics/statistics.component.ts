@@ -8,24 +8,24 @@ import { Component, OnInit } from '@angular/core';
 export class StatisticsComponent implements OnInit {
   public statistics = [
     { 
-      icon: 'sentiment_satisfied_alt', 
-      title: 'Happy Clients', 
-      count: 1750
+      icon: 'engineering', 
+      title: 'Microservices built', 
+      count: '50+'
     },
     { 
-      icon: 'folder', 
+      icon: 'assignment_ind', 
       title: 'Projects', 
-      count: 235
+      count: '15+'
     },
     { 
-      icon: 'access_time', 
-      title: 'Working Hours', 
-      count: 67584
+      icon: 'category', 
+      title: 'Products Built', 
+      count: '1 (4+ years)'
     },
     { 
-      icon: 'code', 
-      title: 'Code rows', 
-      count: 1850
+      icon: 'construction', 
+      title: 'Tools and Technologies', 
+      count: '35+'
     }
   ];
   constructor() { }
