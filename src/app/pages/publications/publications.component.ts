@@ -71,6 +71,21 @@ export class PublicationsComponent implements OnInit {
           link: ''
         }
       ]
+    },
+    { 
+      imageUrl: '/assets/img/publications/ai.png',
+      platformDescription: 'How AI can help in building microservices.', 
+      topics : 'Microservices and AI',
+      articles: [
+        {
+          title : 'Supercharging Productivity in Microservice Development With AI Tools',
+          link: 'https://dzone.com/articles/boost-productivity-microservice-development/'
+        },
+        {
+          title : '',
+          link: ''
+        }
+      ]
     }
   ];
   constructor() { }
