@@ -36,6 +36,25 @@ export class PublicationsComponent implements OnInit {
           link: 'https://www.baeldung.com/java-update-amazon-s3-object'
         },
         {
+          title : 'Difference Between Hashtable and ConcurrentHashMap in Java',
+          link: 'https://www.baeldung.com/java-hashtable-vs-concurrenthashmap'
+        },
+        {
+          title : 'TBD',
+          link: ''
+        }
+      ]
+    },
+    { 
+      imageUrl: '/assets/img/publications/ai.png',
+      platformDescription: 'How AI can help in building microservices.', 
+      topics : 'Microservices and AI',
+      articles: [
+        {
+          title : 'Supercharging Productivity in Microservice Development With AI Tools',
+          link: 'https://dzone.com/articles/boost-productivity-microservice-development/'
+        },
+        {
           title : 'TBD',
           link: ''
         },
@@ -47,7 +66,7 @@ export class PublicationsComponent implements OnInit {
     },
     { 
       imageUrl: '/assets/img/publications/blog.png',
-      platformDescription: 'MyTechNetKnowhows is a personal technical blog offering insights and guides on a range of technology topics, aiming to empower IT professionals and software developers with practical knowledge', 
+      platformDescription: 'MyTechNetKnowhows (personal technical blog) - Microservices/Cloud/.NET', 
       topics : 'Microservices, Spring, Cloud',
       articles: [
         {
@@ -72,21 +91,6 @@ export class PublicationsComponent implements OnInit {
         }
       ]
     },
-    { 
-      imageUrl: '/assets/img/publications/ai.png',
-      platformDescription: 'How AI can help in building microservices.', 
-      topics : 'Microservices and AI',
-      articles: [
-        {
-          title : 'Supercharging Productivity in Microservice Development With AI Tools',
-          link: 'https://dzone.com/articles/boost-productivity-microservice-development/'
-        },
-        {
-          title : '',
-          link: ''
-        }
-      ]
-    }
   ];
   constructor() { }
 
