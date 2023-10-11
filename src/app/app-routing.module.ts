@@ -17,7 +17,7 @@ const routes: Routes = [
            { path: 'clients', loadChildren: () => import('./pages/clients/clients.module').then(m => m.ClientsModule) }, 
            { path: 'pricing', loadChildren: () => import('./pages/pricing/pricing.module').then(m => m.PricingModule) }, 
            { path: 'team', loadChildren: () => import('./pages/team/team.module').then(m => m.TeamModule) }, 
-           { path: 'contact', loadChildren: () => import('./pages/contact/contact.module').then(m => m.ContactModule) },
+          //  { path: 'contact', loadChildren: () => import('./pages/contact/contact.module').then(m => m.ContactModule) },
            { path: 'speaking', loadChildren: () => import('./pages/speaking/speaking.module').then(m => m.SpeakingModule) }, 
            { path: 'certifications', loadChildren: () => import('./pages/certifications/certifications.module').then(m => m.CertificationsModule) },
            { path: 'awards', loadChildren: () => import('./pages/awards/awards.module').then(m => m.AwardsModule) }

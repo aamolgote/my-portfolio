@@ -18,10 +18,10 @@ export class MenuComponent implements OnInit {
     { title: 'Speaking', routerLink: '/speaking', icon: 'speaker' },
     { title: 'skills', routerLink: '/skills', icon: 'build' },
     { title: 'Certifications', routerLink: '/certifications', icon: 'badge' },    
-    { title: 'awards', routerLink: '/awards', icon: 'emoji_events' },   
+    { title: 'awards', routerLink: '/awards', icon: 'emoji_events' }
     //{ title: 'portfolio', routerLink: '/portfolio', icon: 'work' },
     //{ title: 'team', routerLink: '/team', icon: 'group' },
-    { title: 'contact', routerLink: '/contact', icon: 'mail' }
+    // { title: 'contact', routerLink: '/contact', icon: 'mail' }
   ]
   public settings: Settings;
   constructor(public appSettings:AppSettings) { 

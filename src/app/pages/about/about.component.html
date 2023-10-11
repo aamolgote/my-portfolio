@@ -1,5 +1,6 @@
 <app-content-header [image]="person" headerTitle="Amol Gote" 
-desc="Unleashing the power of microservices in the cloud, delivering agility, scalability, and innovation for modern applications for both enterprises and startups.">
+desc="Unleashing the power of microservices in the cloud, delivering agility, scalability, and innovation for modern applications for both enterprises and startups."
+expertise="Microservice Expert | Hackathon Judge | Speaker">
 </app-content-header>
 <div class="container p-3">
     <div fxLayout="row wrap" fxLayoutAlign="center center">        
@@ -11,7 +12,7 @@ desc="Unleashing the power of microservices in the cloud, delivering agility, sc
                         <h3 class="service-title my-3">{{service.title}}</h3>
                         <p class="text-center secondary-text-color">
                             {{service.desc}}
-                        </p>           
+                        </p>  
                     </mat-card>
                 </div>
             </div>
@@ -65,6 +66,15 @@ desc="Unleashing the power of microservices in the cloud, delivering agility, sc
                                     </span>
                                 </div>
                             </mat-list-item>
+                            <mat-list-item>
+                                <div mat-line>
+                                    <span class="list-title">Mentor:</span>
+                                    <span class="secondary-text-color">
+                                        <a href="https://adplist.org/mentors/amol-gote" target="_blank">Set Up Session</a>
+                                    </span>
+                                </div>
+                            </mat-list-item>
+                            
                         </mat-list>
                     </div>
                     <div fxFlex="100" fxFlex.gt-sm="50" class="">
@@ -89,11 +99,12 @@ desc="Unleashing the power of microservices in the cloud, delivering agility, sc
                                     </span>
                                 </div>
                             </mat-list-item>
+                            
                         </mat-list>
                     </div>
-                    <div fxFlex="100" class="text-center mt-2">
+                    <!-- <div fxFlex="100" class="text-center mt-2">
                         <a routerLink="/contact" mat-raised-button color="accent" class="m-2">Contact Me</a>
-                    </div>
+                    </div> -->
                 </div>
             </mat-card>
         </div>  

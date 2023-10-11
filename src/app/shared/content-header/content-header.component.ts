@@ -12,6 +12,8 @@ export class ContentHeaderComponent implements OnInit {
   @Input('icon') icon!:string;
   @Input('headerTitle') headerTitle!:string;
   @Input('desc') desc!:string;
+  @Input('expertise') expertise!:string;
+  
 
   public settings: Settings;
   constructor(public appSettings:AppSettings) { 
