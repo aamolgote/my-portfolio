@@ -11,6 +11,7 @@ export class PublicationsComponent implements OnInit {
       imageUrl: '/assets/img/publications/dzone.png',
       platformDescription: 'DZone is a widely-recognized platform that connects software developers and IT professionals, serving as a hub for expert insights, tutorials, and industry news.', 
       topics : 'Microservices, Spring, Cloud',
+      platformUrl : 'https://www.dzone.com',
       articles: [
         {
           title : 'Ensuring Reliable Microservice Deployment With Spring Boot Build Info Maven Plugin',
@@ -23,6 +24,10 @@ export class PublicationsComponent implements OnInit {
         {
           title : 'Using Spring To Download a Zip File, Extract It, and Upload It to Cloud Storage Without Storing Files Locally in the Container',
           link: 'https://dzone.com/articles/spring-download-zip-file-extract-and-save-to-cloud-storage'
+        },
+        {
+          title : 'Ensuring API Resilience in Spring Microservices Using Retry and Fallback Mechanisms',
+          link: 'https://dzone.com/articles/api-resilience-with-retry-fallback-in-spring'
         }
       ]
     },
@@ -30,6 +35,7 @@ export class PublicationsComponent implements OnInit {
       imageUrl: '/assets/img/publications/baeldung.png',
       platformDescription: 'Baeldung is a trusted resource in the Java ecosystem, specializing in in-depth tutorials and articles on Java, Spring technologies, and microservices, serving as a go-to guide for software developers.',
       topics : 'Microservices, Spring, Cloud', 
+      platformUrl : 'https://www.baeldung.com/about',
       articles: [
         {
           title : 'Update an Existing Amazon S3 Object using Java',
@@ -38,6 +44,26 @@ export class PublicationsComponent implements OnInit {
         {
           title : 'Difference Between Hashtable and ConcurrentHashMap in Java',
           link: 'https://www.baeldung.com/java-hashtable-vs-concurrenthashmap'
+        },
+        {
+          title : 'Ensuring Message Ordering in Kafka: Strategies and Configurations',
+          link: 'https://www.baeldung.com/kafka-message-ordering'
+        }
+      ]
+    },
+    { 
+      imageUrl: '/assets/img/publications/infoq.png',
+      platformDescription: 'Share experiences gained using innovator and early adopter stage techniques and technologies with the wider industry.', 
+      topics : 'Microservices and Fintech',
+      platformUrl : 'https://www.infoq.com',
+      articles: [
+        {
+          title : 'From Dependency to Autonomy: Building an In-House E-signing Service',
+          link: 'https://www.infoq.com/articles/electronic-signing-service-cloud/'
+        },
+        {
+          title : 'TBD',
+          link: ''
         },
         {
           title : 'TBD',
@@ -49,6 +75,7 @@ export class PublicationsComponent implements OnInit {
       imageUrl: '/assets/img/publications/ai.png',
       platformDescription: 'How AI can help in building microservices.', 
       topics : 'Microservices and AI',
+      platformUrl : '',
       articles: [
         {
           title : 'Supercharging Productivity in Microservice Development With AI Tools',
@@ -68,6 +95,7 @@ export class PublicationsComponent implements OnInit {
       imageUrl: '/assets/img/publications/blog.png',
       platformDescription: 'MyTechNetKnowhows (personal technical blog) - Microservices/Cloud/.NET', 
       topics : 'Microservices, Spring, Cloud',
+      platformUrl : 'https://mytechnetknowhows.wordpress.com/',
       articles: [
         {
           title : 'Twelve factor apps',
