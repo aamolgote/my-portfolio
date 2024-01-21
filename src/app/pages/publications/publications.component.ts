@@ -72,6 +72,26 @@ export class PublicationsComponent implements OnInit {
       ]
     },
     { 
+      imageUrl: '/assets/img/publications/research-papers.png',
+      platformDescription: '', 
+      topics : 'Research Papers',
+      platformUrl : '',
+      articles: [
+        {
+          title : 'Real-time interactivity in hybrid applications with Web sockets.',
+          link: 'https://www.doi.org/10.56726/IRJMETS48494'
+        },
+        {
+          title : 'TBD',
+          link: ''
+        },
+        {
+          title : 'TBD',
+          link: ''
+        }
+      ]
+    },
+    { 
       imageUrl: '/assets/img/publications/ai.png',
       platformDescription: 'How AI can help in building microservices.', 
       topics : 'Microservices and AI',
