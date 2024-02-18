@@ -9,6 +9,11 @@ export class AwardsComponent implements OnInit {
   person:string = 'assets/img/person.png'; 
   public awards = [
     { 
+      icon: 'star_border_purple500', 
+      title: 'International Achievers Award - 2023', 
+      desc: 'Recognizes exceptional achievements, technological innovations and contributions'
+    },
+    { 
       icon: 'military_tech', 
       title: 'GPGP - Great People Great Performance', 
       desc: 'Exemplary performance on the Lexis Nexis Advance Project at Microsoft in 2012.'
