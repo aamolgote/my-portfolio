@@ -84,10 +84,6 @@ export class PublicationsComponent implements OnInit {
         {
           title : 'Enhancing Resilience: A Solution Framework for Handling Third-Party Service Disruptions in FinTech Mobile Applications',
           link: 'https://www.ijmra.us/project%20doc/2024/IJME_FEBRUARY2024/IJMIE11Feb24_1568.pdf'
-        },
-        {
-          title : 'TBD',
-          link: ''
         }
       ]
     },
@@ -106,8 +102,8 @@ export class PublicationsComponent implements OnInit {
           link: 'https://dzone.com/articles/co-pilot-intellij-microservices-productivity-tips'
         },
         {
-          title : 'TBD',
-          link: ''
+          title : 'An Approach To Synthetic Transactions With Spring Microservices',
+          link: 'https://dzone.com/articles/synthetic-transactions-spring-microservices-validation'
         }
       ]
     },
