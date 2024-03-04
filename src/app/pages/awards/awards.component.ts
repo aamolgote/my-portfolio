@@ -32,6 +32,11 @@ export class AwardsComponent implements OnInit {
       icon: 'stars', 
       title: 'Delivery Excellence award', 
       desc: 'Team award for delivery excellence for eCommerce Platform upgrade project.'
+    },
+    { 
+      icon: 'auto_awesome', 
+      title: '2024 Global Recognition Award', 
+      desc: 'Award highlights achievements at iCreditWorks and contributions to the FinTech domain'
     }
   ];
   constructor() { }

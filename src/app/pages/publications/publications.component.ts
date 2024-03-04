@@ -130,11 +130,26 @@ export class PublicationsComponent implements OnInit {
           link: 'https://mytechnetknowhows.wordpress.com/2016/05/31/http-methods-put-post-idempotent-safe/'
         },
         {
-          title : '',
-          link: ''
+          title : 'Embracing Microservices: Evolution, Advantages, and Implementation Challenges',
+          link: 'https://mytechnetknowhows.wordpress.com/2016/06/05/something-microservices/'
         }
       ]
     },
+  ];
+
+  public bookReviews = [
+    { 
+      imageUrl: '/assets/img/publications/book-reviews/jakarta-app-dev.jpg',
+      platformDescription: '', 
+      topics : 'Microservices, Spring, Cloud',
+      platformUrl : '',
+      books: [
+        {
+          title : 'Book Reviewer - Jakarta EE Application Development',
+          link: 'https://www.packtpub.com/product/jakarta-ee-application-development-second-edition/9781835085264'
+        }
+      ]
+    }
   ];
   constructor() { }
 
