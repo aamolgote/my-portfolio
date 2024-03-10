@@ -84,6 +84,10 @@ export class PublicationsComponent implements OnInit {
         {
           title : 'Enhancing Resilience: A Solution Framework for Handling Third-Party Service Disruptions in FinTech Mobile Applications',
           link: 'https://www.ijmra.us/project%20doc/2024/IJME_FEBRUARY2024/IJMIE11Feb24_1568.pdf'
+        },
+        {
+          title : 'Building a Cash Flow Underwriting System: Insights from Implementation',
+          link: 'https://ijcttjournal.org/archives/ijctt-v72i2p113'
         }
       ]
     },
