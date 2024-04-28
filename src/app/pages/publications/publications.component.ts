@@ -155,6 +155,25 @@ export class PublicationsComponent implements OnInit {
       ]
     }
   ];
+
+  public mediaLinks = [
+    { 
+      imageUrl: '/assets/img/publications/media/media-coverage.jpg',
+      platformDescription: '', 
+      topics : 'Microservices, Spring, Cloud',
+      platformUrl : '',
+      media: [
+        {
+          title : 'Tech bullion - Financial Technology News',
+          link: 'https://techbullion.com/pioneering-fintech-innovation-and-impact-as-solutions-architect/'
+        },
+        {
+          title : 'The Financial News 247 - Latest Finance News and Updates',
+          link: 'https://thefinancialnews247.com/driving-fintech-innovation-as-a-solutions-architect/'
+        }
+      ]
+    }
+  ];
   constructor() { }
 
   ngOnInit() {
