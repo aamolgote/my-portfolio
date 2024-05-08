@@ -52,7 +52,7 @@
                         <img [src]="mediaLink.imageUrl" alt="{{mediaLink.platformDescription}}"
                             style="max-width: 150px;max-height: 150px;">
                         <!--<h4 class="service-title my-4">{{service.platformDescription}}</h4>-->
-                        <a [href]="mediaLink.link" target="_blank" class="mx-2" alt="Presentation Powerpoint"
+                        <a [href]="mediaElement.link" target="_blank" class="mx-2" alt="Media Links"
                             *ngFor="let mediaElement of mediaLink.media" style="padding-top: 10px;">
                             {{mediaElement.title}}
                         </a>
