@@ -38,6 +38,10 @@ export class PublicationsComponent implements OnInit {
       platformUrl : 'https://www.baeldung.com/about',
       articles: [
         {
+          title: 'Dynamically Managing Kafka Listeners in Spring Boot',
+          link: 'https://www.baeldung.com/kafka-spring-boot-dynamically-manage-listeners'
+        },
+        {
           title : 'Ensuring Message Ordering in Kafka: Strategies and Configurations',
           link: 'https://www.baeldung.com/kafka-message-ordering'
         },
@@ -52,22 +56,22 @@ export class PublicationsComponent implements OnInit {
       ]
     },
     { 
-      imageUrl: '/assets/img/publications/infoq.png',
+      imageUrl: '/assets/img/publications/framework.png',
       platformDescription: 'Share experiences gained using innovator and early adopter stage techniques and technologies with the wider industry.', 
       topics : 'Microservices and Fintech',
-      platformUrl : 'https://www.infoq.com',
+      platformUrl : '',
       articles: [
         {
           title : 'From Dependency to Autonomy: Building an In-House E-signing Service',
           link: 'https://www.infoq.com/articles/electronic-signing-service-cloud/'
         },
         {
-          title : 'TBD',
-          link: ''
+          title : 'E-Delivery Microservices Based Multi-Channel Communications Delivery Framework',
+          link: 'https://ijcttjournal.org/archives/ijctt-v72i5p101'
         },
         {
-          title : 'TBD',
-          link: ''
+          title : 'Building a Cash Flow Underwriting System: Insights from Implementation',
+          link: 'https://ijcttjournal.org/archives/ijctt-v72i2p113'
         }
       ]
     },
@@ -86,8 +90,8 @@ export class PublicationsComponent implements OnInit {
           link: 'https://www.ijmra.us/project%20doc/2024/IJME_FEBRUARY2024/IJMIE11Feb24_1568.pdf'
         },
         {
-          title : 'Building a Cash Flow Underwriting System: Insights from Implementation',
-          link: 'https://ijcttjournal.org/archives/ijctt-v72i2p113'
+          title: 'Comparative Analysis of Machine Learning Models for Credit Scoring: A Case Study',
+          link: 'https://ijarsct.co.in/Paper15452.pdf'
         }
       ]
     },
@@ -106,8 +110,36 @@ export class PublicationsComponent implements OnInit {
           link: 'https://dzone.com/articles/co-pilot-intellij-microservices-productivity-tips'
         },
         {
+          title : 'To be added',
+          link: ''
+        },
+        {
+          title : 'To be added',
+          link: ''
+        }
+      ]
+    },
+    { 
+      imageUrl: '/assets/img/publications/dzone.png',
+      platformDescription: 'DZone is a widely-recognized platform that connects software developers and IT professionals, serving as a hub for expert insights, tutorials, and industry news.', 
+      topics : 'Microservices, Spring, Cloud',
+      platformUrl : 'https://www.dzone.com',
+      articles: [
+        {
           title : 'An Approach To Synthetic Transactions With Spring Microservices',
           link: 'https://dzone.com/articles/synthetic-transactions-spring-microservices-validation'
+        },
+        {
+          title : 'Spring Microservice Application Resilience: The Role of @Transactional in Preventing Connection Leaks',
+          link: 'https://dzone.com/articles/spring-microservice-role-of-transactional'
+        },
+        {
+          title : 'To be added',
+          link: ''
+        },
+        {
+          title : 'To be added',
+          link: ''
         }
       ]
     },
@@ -118,24 +150,24 @@ export class PublicationsComponent implements OnInit {
       platformUrl : 'https://mytechnetknowhows.wordpress.com/',
       articles: [
         {
-          title : 'Twelve factor apps',
+          title : 'Developing Scalable and Resilient Applications using the Twelve-Factor App Principles',
           link: 'https://mytechnetknowhows.wordpress.com/2016/05/29/twelve-factor-apps/'
-        },
-        {
-          title : 'ASP.NET Web API and Streaming Video Content',
-          link: 'https://mytechnetknowhows.wordpress.com/2017/05/18/asp-net-web-api-and-streaming-video-content/'
-        },
-        {
-          title : 'CORS and Web API',
-          link: 'https://mytechnetknowhows.wordpress.com/2016/06/12/cors-and-web-api-2/'
-        },
-        {
-          title : 'HTTP Methods PUT, POST, Idempotent, Safe…',
-          link: 'https://mytechnetknowhows.wordpress.com/2016/05/31/http-methods-put-post-idempotent-safe/'
         },
         {
           title : 'Embracing Microservices: Evolution, Advantages, and Implementation Challenges',
           link: 'https://mytechnetknowhows.wordpress.com/2016/06/05/something-microservices/'
+        },
+        {
+          title : 'Building a Video Streaming API with ASP.NET Web API and PushStreamContent',
+          link: 'https://mytechnetknowhows.wordpress.com/2017/05/18/asp-net-web-api-and-streaming-video-content/'
+        },
+        {
+          title : 'Implementing Cross-Origin Resource Sharing (CORS) in Web API 2',
+          link: 'https://mytechnetknowhows.wordpress.com/2016/06/12/cors-and-web-api-2/'
+        },
+        {
+          title : 'HTTP Methods Demystified: Idempotency, Safety, and Best Practices for RESTful APIs',
+          link: 'https://mytechnetknowhows.wordpress.com/2016/05/31/http-methods-put-post-idempotent-safe/'
         }
       ]
     },
