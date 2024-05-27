@@ -76,6 +76,30 @@ export class PublicationsComponent implements OnInit {
       ]
     },
     {
+      imageUrl: '/assets/img/publications/research-papers-2.png',
+      platformDescription: 'Share experiences gained using innovator and early adopter stage techniques and technologies with the wider industry.',
+      topics: 'Microservices and Fintech',
+      platformUrl: '',
+      articles: [
+        {
+          title: 'Outcomes of eCBSV Implementation in Identity Verification: A Quantitative Analysis',
+          link: 'https://doi.org/10.55454/rcsas.4.05.2024.004'
+        },
+        {
+          title: 'Comparative Analysis of Machine Learning Models for Credit Scoring - A Case Study on the South German Credit Dataset',
+          link: 'https://ijarsct.co.in/Paper15452.pdf'
+        },
+        {
+          title: 'TBD',
+          link: ''
+        },
+        {
+          title: 'TBD',
+          link: ''
+        }
+      ]
+    },
+    {
       imageUrl: '/assets/img/publications/research-papers.png',
       platformDescription: '',
       topics: 'Research Papers',
