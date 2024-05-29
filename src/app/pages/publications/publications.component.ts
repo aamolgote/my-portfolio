@@ -158,8 +158,8 @@ export class PublicationsComponent implements OnInit {
           link: 'https://dzone.com/articles/spring-microservice-role-of-transactional'
         },
         {
-          title: 'To be added',
-          link: ''
+          title: 'Feature Flags for Coordinated Spring API and Mobile App Rollouts',
+          link: 'https://dzone.com/articles/feature-flags-spring-api-and-mobile-app-rollouts'
         },
         {
           title: 'To be added',
