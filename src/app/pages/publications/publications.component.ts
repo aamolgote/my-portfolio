@@ -90,12 +90,8 @@ export class PublicationsComponent implements OnInit {
           link: 'https://ijarsct.co.in/Paper15452.pdf'
         },
         {
-          title: 'TBD',
-          link: ''
-        },
-        {
-          title: 'TBD',
-          link: ''
+          title: 'Integrating Kafka Test Container for Local Development Environment',
+          link: 'https://coderlegion.com/339/integrating-kafka-test-container-for-local-development-environment'
         }
       ]
     },
