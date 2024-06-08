@@ -8,6 +8,13 @@ import { Component, OnInit } from '@angular/core';
 export class SpeakingComponent implements OnInit {
   public speakingEngagements = [
     {
+      name: 'Developer Week 2024',
+      title: 'Digital Signatures Decoded Crafting an In-House E-Signing Microservice',
+      photo: 'assets/img/speaking/DeveloperWeek2024.png',
+      presentationLink: 'https://github.com/aamolgote/itpc-2024/blob/main/Digital-Signatures-Decoded-Crafting-In-House-e-Signing-Microservice.pptx',
+      sourceCodeLink: 'https://github.com/iCreateWorks/esigning'
+    }, 
+    {
       name: 'Code Camp NYC 2018',
       title: 'Building Blockchain D-APPS Using Ethereum, .NET Web API (Microservices) and Angular',
       photo: 'assets/img/speaking/codecampnyc2018.png',
