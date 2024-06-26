@@ -27,6 +27,24 @@ export class AwardsComponent implements OnInit {
       imagePath: '/assets/img/awards/TITAN-Gold.jpg'
     },
     { 
+      title: 'Globee Technology Silver Award - 2024', 
+      desc: 'IT Consultant of the Year',
+      type: 'img',
+      imagePath: '/assets/img/awards/Globee-Silver-Badge.png'
+    },
+    { 
+      title: 'Globee Technology Bronze Award - 2024', 
+      desc: 'Professional of the Year - IT Services',
+      type: 'img',
+      imagePath: '/assets/img/awards/Globee-Bronze-Badge.png'
+    },
+    { 
+      title: 'Golden Bridge Bronze Award - 2024', 
+      desc: 'IT Professional of the Year (non-executive)',
+      type: 'img',
+      imagePath: '/assets/img/awards/Globee-Bronze-Badge.png'
+    },
+    { 
       icon: 'auto_awesome', 
       title: '2024 Global Recognition Award', 
       desc: 'Award highlights achievements at iCreditWorks and contributions to the FinTech domain',
