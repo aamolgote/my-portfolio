@@ -158,8 +158,8 @@ export class PublicationsComponent implements OnInit {
           link: 'https://dzone.com/articles/feature-flags-spring-api-and-mobile-app-rollouts'
         },
         {
-          title: 'To be added',
-          link: ''
+          title: 'Fine-Tuning Performance, Resolving Common Issues in FinTech Application With MySQL',
+          link: 'https://dzone.com/articles/fine-tuning-mysql-performance-resolving-issues'
         }
       ]
     },
@@ -239,6 +239,30 @@ export class PublicationsComponent implements OnInit {
         {
           title: 'Book Reviewer - Jakarta EE Application Development',
           link: 'https://www.packtpub.com/product/jakarta-ee-application-development-second-edition/9781835085264'
+        }
+      ]
+    },
+    {
+      imageUrl: '/assets/img/publications/book-reviews/contract-testing.png',
+      platformDescription: '',
+      topics: 'Microservices, Spring, Cloud',
+      platformUrl: '',
+      books: [
+        {
+          title: 'Book Reviewer - Contract Testing in Action With Pact, PactFlow, and GitHub Actions',
+          link: 'https://www.manning.com/books/contract-testing-in-action'
+        }
+      ]
+    },
+    {
+      imageUrl: '/assets/img/publications/book-reviews/sql-server-mistakes.png',
+      platformDescription: '',
+      topics: 'Microservices, Spring, Cloud',
+      platformUrl: '',
+      books: [
+        {
+          title: 'Book Reviewer - 100 SQL Server Mistakes and How to Avoid Them',
+          link: 'https://www.manning.com/books/100-sql-server-mistakes-and-how-to-avoid-them'
         }
       ]
     }
