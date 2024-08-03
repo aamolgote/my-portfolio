@@ -160,7 +160,12 @@ export class PublicationsComponent implements OnInit {
         {
           title: 'Fine-Tuning Performance, Resolving Common Issues in FinTech Application With MySQL',
           link: 'https://dzone.com/articles/fine-tuning-mysql-performance-resolving-issues'
+        },
+        {
+          title: 'Spring Microservice Tip: Abstracting the Database Hostname With Environment Variable',
+          link: 'https://dzone.com/articles/spring-microservice-tip-abstracting-db-hostname'
         }
+
       ]
     },
     {
@@ -263,6 +268,18 @@ export class PublicationsComponent implements OnInit {
         {
           title: 'Book Reviewer - 100 SQL Server Mistakes and How to Avoid Them',
           link: 'https://www.manning.com/books/100-sql-server-mistakes-and-how-to-avoid-them'
+        }
+      ]
+    },
+    {
+      imageUrl: '/assets/img/publications/book-reviews/api-design.png',
+      platformDescription: '',
+      topics: 'Microservices, Spring, Cloud',
+      platformUrl: '',
+      books: [
+        {
+          title: 'The Design of Web APIs, Second Edition',
+          link: 'https://www.manning.com/books/the-design-of-web-apis-second-edition'
         }
       ]
     }
