@@ -130,11 +130,11 @@ export class PublicationsComponent implements OnInit {
           link: 'https://dzone.com/articles/co-pilot-intellij-microservices-productivity-tips'
         },
         {
-          title: 'To be added',
-          link: ''
+          title: 'Enhance Your Communication Strategy: Deliver Multimedia Messages With AWS Pinpoint',
+          link: 'https://dzone.com/articles/sending-multimedia-messages-using-aws-pinpoint'
         },
         {
-          title: 'To be added',
+          title: '  ',
           link: ''
         }
       ]
@@ -229,6 +229,22 @@ export class PublicationsComponent implements OnInit {
         {
           title: 'Angular - Pipes passing multiple filters to Pipes',
           link: 'https://mytechnetknowhows.wordpress.com/2017/02/18/angular-2-pipes-passing-multiple-filters-to-pipes/'
+        }
+      ]
+    },
+    {
+      imageUrl: '/assets/img/publications/bcs.svg',
+      platformDescription: 'British Computer Society (BCS) - CPD (BCS Members)',
+      topics: 'Microservices, Cloud',
+      platformUrl: 'https://mytechnetknowhows.wordpress.com/',
+      articles: [
+        {
+          title: 'Building resilient microservices in the cloud',
+          link: 'https://discover.bcs.org/articles/building-resilient-microservices-in-the-cloud/'
+        },
+        {
+          title: 'Emerging career paths: the significance of microservices in AI',
+          link: 'https://discover.bcs.org/articles/emerging-career-paths-the-significance-of-microservices-in-ai/'
         }
       ]
     }
