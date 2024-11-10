@@ -18,7 +18,7 @@
                                 <mat-icon class="mat-icon-lg">link</mat-icon>
                             </a>
                             <a [href]="speakingEngagement.sourceCodeLink" target="_blank" class="mx-2"
-                                alt="Demo Source Code">
+                                alt="Demo Source Code" *ngIf="speakingEngagement.sourceCodeLink">
                                 <mat-icon class="mat-icon-lg">code</mat-icon>
                             </a>
                         </div>

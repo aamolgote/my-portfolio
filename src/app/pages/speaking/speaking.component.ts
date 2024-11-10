@@ -8,6 +8,12 @@ import { Component, OnInit } from '@angular/core';
 export class SpeakingComponent implements OnInit {
   public speakingEngagements = [
     {
+      name: 'API World 2024',
+      title: 'Transforming Lending with Open Banking: A Case Study in Building a Cash Flow Underwriting System',
+      photo: 'assets/img/speaking/API-World-2024.jpg',
+      presentationLink: 'https://github.com/aamolgote/api-world-2024/blob/main/API-World2024-Presentation.pdf'
+    }, 
+    {
       name: 'Developer Week 2024',
       title: 'Digital Signatures Decoded Crafting an In-House E-Signing Microservice',
       photo: 'assets/img/speaking/DeveloperWeek2024.png',
