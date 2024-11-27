@@ -298,7 +298,32 @@ export class PublicationsComponent implements OnInit {
           link: 'https://www.manning.com/books/the-design-of-web-apis-second-edition'
         }
       ]
+    },
+    {
+      imageUrl: '/assets/img/publications/book-reviews/FinTech-GenAI.png',
+      platformDescription: '',
+      topics: 'FinTech, Generative AI',
+      platformUrl: '',
+      books: [
+        {
+          title: 'Build Financial Software with Generative AI',
+          link: 'https://www.manning.com/books/build-financial-software-with-generative-ai'
+        }
+      ]
+    },
+    {
+      imageUrl: '/assets/img/publications/book-reviews/Microservices-ASPNET-Core-8-Migration.jpg',
+      platformDescription: '',
+      topics: 'Microservices, ASP.NET Core 8',
+      platformUrl: '',
+      books: [
+        {
+          title: 'Migrating ASP.NET Microservices to ASP.NET Core 8',
+          link: 'https://books.google.com/books/about/Migrating_ASP_NET_Microservices_to_ASP_N.html?id=eODk0AEACAAJ'
+        }
+      ]
     }
+    
   ];
 
   public mediaLinks = [
