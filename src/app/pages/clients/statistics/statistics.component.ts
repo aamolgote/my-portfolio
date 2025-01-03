@@ -20,7 +20,7 @@ export class StatisticsComponent implements OnInit {
     { 
       icon: 'category', 
       title: 'Products Built', 
-      count: '1 (4+ years)'
+      count: '1 (5+ years)'
     },
     { 
       icon: 'construction', 
