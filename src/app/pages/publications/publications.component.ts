@@ -76,25 +76,30 @@ export class PublicationsComponent implements OnInit {
       ]
     },
     {
-      imageUrl: '/assets/img/publications/research-papers-2.png',
-      platformDescription: 'Share experiences gained using innovator and early adopter stage techniques and technologies with the wider industry.',
-      topics: 'Microservices and Fintech',
-      platformUrl: '',
+      imageUrl: '/assets/img/publications/dzone.png',
+      platformDescription: 'DZone is a widely-recognized platform that connects software developers and IT professionals, serving as a hub for expert insights, tutorials, and industry news.',
+      topics: 'Microservices, Spring, Cloud',
+      platformUrl: 'https://www.dzone.com',
       articles: [
         {
-          title: 'Outcomes of eCBSV Implementation in Identity Verification: A Quantitative Analysis',
-          link: 'https://doi.org/10.55454/rcsas.4.05.2024.004'
+          title: 'Enhance Your Communication Strategy: Deliver Multimedia Messages With AWS Pinpoint',
+          link: 'https://dzone.com/articles/sending-multimedia-messages-using-aws-pinpoint'
         },
         {
-          title: 'Comparative Analysis of Machine Learning Models for Credit Scoring - A Case Study on the South German Credit Dataset',
-          link: 'https://ijarsct.co.in/Paper15452.pdf'
+          title: 'Setting Up Local Kafka Container for Spring Boot Application',
+          link: 'https://dzone.com/articles/setting-up-local-kafka-container-for-spring-boot-application'
         },
         {
           title: 'Integrating Kafka Test Container for Local Development Environment',
           link: 'https://coderlegion.com/339/integrating-kafka-test-container-for-local-development-environment'
+        },
+        {
+          title: ' ',
+          link: ' '
         }
       ]
     },
+    
     {
       imageUrl: '/assets/img/publications/research-papers.png',
       platformDescription: '',
@@ -130,8 +135,8 @@ export class PublicationsComponent implements OnInit {
           link: 'https://dzone.com/articles/co-pilot-intellij-microservices-productivity-tips'
         },
         {
-          title: 'Enhance Your Communication Strategy: Deliver Multimedia Messages With AWS Pinpoint',
-          link: 'https://dzone.com/articles/sending-multimedia-messages-using-aws-pinpoint'
+          title: 'Generate Unit Tests With AI Using Ollama and Spring Boot',
+          link: 'https://dzone.com/articles/generate-unit-tests-ai-ollama-spring-boot'
         },
         {
           title: '  ',
@@ -247,7 +252,24 @@ export class PublicationsComponent implements OnInit {
           link: 'https://discover.bcs.org/articles/emerging-career-paths-the-significance-of-microservices-in-ai/'
         }
       ]
+    },
+    {
+      imageUrl: '/assets/img/publications/research-papers-2.png',
+      platformDescription: 'Share experiences gained using innovator and early adopter stage techniques and technologies with the wider industry.',
+      topics: 'Microservices and Fintech',
+      platformUrl: '',
+      articles: [
+        {
+          title: 'Outcomes of eCBSV Implementation in Identity Verification: A Quantitative Analysis',
+          link: 'https://doi.org/10.55454/rcsas.4.05.2024.004'
+        },
+        {
+          title: 'Comparative Analysis of Machine Learning Models for Credit Scoring - A Case Study on the South German Credit Dataset',
+          link: 'https://ijarsct.co.in/Paper15452.pdf'
+        }
+      ]
     }
+    
   ];
 
   public bookReviews = [
